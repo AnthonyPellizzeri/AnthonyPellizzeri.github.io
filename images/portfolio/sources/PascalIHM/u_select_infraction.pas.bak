@@ -1,0 +1,50 @@
+unit u_select_infraction;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ExtCtrls,
+  StdCtrls;
+
+type
+
+  { Tf_select_infraction }
+
+  Tf_select_infraction = class(TForm)
+    edt_nom: TEdit;
+    edt_num: TEdit;
+    lbl_nom: TLabel;
+    lbl_num: TLabel;
+    pnl_etudiant_edt: TPanel;
+    pnl_etudiant_btn: TPanel;
+    pnl_etudiant: TPanel;
+    pnl_tous_edit: TPanel;
+    pnl_tous_btn: TPanel;
+    pnl_tous: TPanel;
+    pnl_choix: TPanel;
+    pnl_titre: TPanel;
+    procedure pnl_etudiant_edtClick(Sender: TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  f_select_infraction: Tf_select_infraction;
+
+implementation
+
+{$R *.lfm}
+
+{ Tf_select_infraction }
+
+procedure Tf_select_infraction.pnl_etudiant_edtClick(Sender: TObject);
+begin
+
+end;
+
+end.
+

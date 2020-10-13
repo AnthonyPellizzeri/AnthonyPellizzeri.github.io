@@ -1,0 +1,11 @@
+lireGrille(int, int*) --> void
+ecrireGrille(int, int*) --> void
+estC(int, int, int) --> int/booleen --- nombre donné, ligne, colonne
+initTab(int, int*, int, int*) --> void --- premier int pour la dimension du tableau C, l'autre pour O
+ecrireCand --> void
+admetUnique --> int
+fermC --> void
+fermG --> void
+
+
+machin

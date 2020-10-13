@@ -1,0 +1,294 @@
+@font-face
+{
+	font-family : "police1";
+	src : url('../src/Cantarell-Regular.ttf');
+}
+body
+{
+	font-family : police1;
+	margin : 0;
+	padding : 0;
+	height :100%;
+	max-width : 100%;
+	background-image : url('../img/cote.png');
+	background-repeat : repeat;
+	text-align : justify;
+}
+.drap1
+{
+	width : 35px;
+	position : relative;
+	left : 4px;
+	bottom : 50px;
+}
+.drap2
+{
+	width : 35px;
+	position : relative;
+	right : 35px;
+	bottom : 20px;
+}
+.bandeau
+{
+	width : 95%;
+	margin : auto;
+}
+.droite
+{
+	vertical-align : top;
+	float : right;
+	margin-right : 1%;
+	margin-top : 0.5%;
+	font-weight : bold;
+	text-align : right;
+}
+.gauche
+{
+	float : left;
+	margin-left : 1%;
+	margin-top : 0.5%;
+}
+.center
+{
+}
+.l1
+{
+	display : none;
+}
+header
+{
+	text-align : center;
+	position : fixed;
+	background-image : url('../img/cote.png');
+	background-repeat : repeat; 
+}
+header ul
+{
+	background-color : rgb(153,153,153);
+	border : solid 5px rgb(88,88,88);
+	border-radius : 5px;
+	width : 95%;
+	margin : auto;
+	padding-top : 0.5%;
+	padding-bottom : 0.5%;
+	box-shadow : 2px 2px 2px grey;
+	height : 10%;
+}
+section
+{	
+	width:60%;
+	margin : auto;
+	padding: 1%;
+	border-left : solid 5px rgb(88,88,88);
+	border-right : solid 5px rgb(88,88,88);
+	background-color : white;
+}
+article
+{
+	padding-left : 6%;
+	padding-right : 6%;
+	padding-top : 0.5%;
+	padding-bottom : 0.5%;
+	margin : 1%;
+}
+body section h2
+{
+	padding-bottom : 1%;
+}
+footer
+{
+	background-color: rgb(153,153,153);
+	text-align: center;
+	padding:0.25%;
+	color: white;
+	border-top : solid 7px rgb(88,88,88);
+	position: relative;
+	bottom: 0;
+	left : 0;
+	right : 0;
+}
+.a1
+{
+	margin-top : 160px;
+	padding-bottom : 120px;
+}	
+.a2
+{
+	margin-top : 160px;
+	padding-bottom : 90px;
+}
+header ul li 
+{
+	display: inline;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+header ul li a 
+{
+	display: inline-block;
+	width: 150px;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: white;
+	text-shadow: -1px -1px 0 #888;
+	text-align: center;
+	background: rgb(88,88,88);
+	border-radius: 6px;
+}
+
+header ul li a:hover, li a:focus, li a:active 
+{
+	padding: 4px 9px;
+	border: 1px solid #bbb;
+	background: #fff;
+	color: rgb(88,88,88);
+}
+aside
+{
+	width : 15%;
+	max-height : 30%;
+	background-color : white;
+	float : right;
+	position : fixed;
+	bottom : 37.5%;
+	right : 1.35%;
+	border : solid 5px rgb(88,88,88);
+	border-radius : 5px;
+	padding : 3px;
+	overflow : auto;
+	font-weight : bold;
+}
+aside h4
+{
+	text-align : center;
+}
+aside ul li
+{
+	list-style-image : url('../img/Logo_Web.png');
+	text-align : center;
+}
+aside ul li a
+{
+	text-decoration : none;
+	color : black;
+	border: none;
+}
+aside ul li a:hover, li a:focus, li a:active
+{
+	color :rgb(88,88,88);
+	text-align : center;
+	text-decoration : none;
+	border : none;
+}
+.iut
+{
+	width : 30%;
+	margin : 0.5%;
+	margin-top : 1%;
+}
+.amph1
+{
+	width : 30%;
+	margin : 0.5%;
+	margin-top : 1%;
+}
+.amph2
+{
+	width : 30%;
+	margin : 0.5%;
+	margin-top : 1%;
+}
+section article figure
+{
+	text-align : center;
+	margin-top : 10%;
+}
+.bas
+{
+	position : fixed;
+	
+}
+body div section article p
+{
+	text-indent : 20px;
+}
+.phone
+{
+	list-style-image: url('../img/icone_telephone.png');
+}
+.mail
+{
+	list-style-image: url('../img/icone_mail.png');
+}
+.fb
+{
+	list-style-image: url('../img/icone_fb.png');
+}
+div section article h3
+{
+	text-align: center;
+	margin-bottom: 1%;
+}
+body div section article iframe
+{
+	margin-bottom : -20px;
+}
+body section article ul 
+{
+	margin-left : 20px;
+}
+.pucechap
+{
+	list-style-image : url('../img/graduate-cap.png')
+}
+.pucecomp
+{
+	list-style-image : url('../img/comparaison.png')
+}
+.puceordi
+{
+	list-style-image : url('../img/ordi.png')
+}
+.cour
+{
+	width : 40%;
+	float : right;
+}
+.pucecours
+{
+    list-style-image : url('../img/plume.png')
+}
+.pucebatiment
+{
+    list-style-image : url('../img/restaurant.png')
+}
+.logoavant
+{
+    width:20%;
+    padding-left:5%;
+    padding-right: 5%;
+}
+.pucehomme
+{
+    list-style-image : url('../img/homme.png')
+}
+.puceecole
+{
+    list-style-image : url('../img/certif.png')
+}
+.graphiqueavant
+{
+    width:40%;
+    margin-bottom: 3%;
+    margin-top: -3%;
+}
+.logosCrous
+{
+    display: inline;
+}
+
+.carte
+{
+    width: 100%;
+    height: 300px;
+}

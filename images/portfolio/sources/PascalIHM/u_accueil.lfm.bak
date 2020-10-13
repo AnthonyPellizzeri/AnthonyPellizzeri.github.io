@@ -1,0 +1,41 @@
+object f_accueil: Tf_accueil
+  Left = 453
+  Height = 720
+  Top = 268
+  Width = 950
+  Caption = 'u_accueil'
+  ClientHeight = 720
+  ClientWidth = 950
+  LCLVersion = '1.6.0.4'
+  object pnl_accueil: TPanel
+    Left = 0
+    Height = 720
+    Top = 0
+    Width = 950
+    Align = alClient
+    ClientHeight = 720
+    ClientWidth = 950
+    TabOrder = 0
+    object lbl_accueil: TLabel
+      Left = 1
+      Height = 718
+      Top = 1
+      Width = 948
+      Align = alClient
+      Alignment = taCenter
+      Caption = 'Bienvenue '#13#10#13#10'dans l''application de '#13#10#13#10'gestion de la Scolarité'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlue
+      Font.Height = -67
+      Font.Name = 'Calibri'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold, fsItalic]
+      Layout = tlCenter
+      ParentColor = False
+      ParentFont = False
+      WordWrap = True
+      OnClick = lbl_accueilClick
+    end
+  end
+end

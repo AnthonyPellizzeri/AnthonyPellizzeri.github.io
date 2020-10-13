@@ -1,0 +1,70 @@
+object f_note_ajout: Tf_note_ajout
+  Left = 243
+  Height = 160
+  Top = 140
+  Width = 320
+  Caption = 'f_note_ajout'
+  ClientHeight = 0
+  ClientWidth = 0
+  ParentFont = True
+  LCLVersion = '1.6.0.4'
+  object pnl_titre: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 0
+    Align = alTop
+    Caption = 'Ajout d''une note'
+    TabOrder = 0
+  end
+  object pnl_details: TPanel
+    Left = 0
+    Height = 0
+    Top = 0
+    Width = 0
+    Align = alClient
+    ClientHeight = 0
+    ClientWidth = 0
+    TabOrder = 1
+    object lbl_ue: TLabel
+      Left = 24
+      Height = 20
+      Top = 21
+      Width = 29
+      Caption = 'UE : '
+      ParentColor = False
+    end
+    object cbo_ue: TComboBox
+      Left = 24
+      Height = 28
+      Top = 56
+      Width = 100
+      AutoComplete = True
+      AutoCompleteText = [cbactEnabled, cbactEndOfLineComplete, cbactSearchAscending]
+      ItemHeight = 20
+      OnCloseUp = cbo_ueCloseUp
+      Style = csDropDownList
+      TabOrder = 0
+    end
+    object lbl_coeff: TLabel
+      Left = 200
+      Height = 20
+      Top = 21
+      Width = 83
+      Caption = 'Coefficient : '
+      ParentColor = False
+    end
+    object cbo_coeff: TComboBox
+      Left = 200
+      Height = 28
+      Top = 56
+      Width = 100
+      AutoComplete = True
+      AutoCompleteText = [cbactEnabled, cbactEndOfLineComplete, cbactSearchAscending]
+      ItemHeight = 20
+      OnCloseUp = cbo_coeffCloseUp
+      Style = csDropDownList
+      TabOrder = 1
+    end
+  end
+end

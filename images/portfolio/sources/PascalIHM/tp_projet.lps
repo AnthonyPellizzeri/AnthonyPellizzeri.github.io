@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="31">
+      <Unit0>
+        <Filename Value="tp_projet.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="14" Y="16"/>
+        <UsageCount Value="74"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="TP_Projet_noté\u_gabarit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="f_gabarit"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3"/>
+        <CursorPos Y="73"/>
+        <UsageCount Value="74"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="TP_Projet_noté\u_feuille_style.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="80"/>
+        <CursorPos X="5" Y="105"/>
+        <UsageCount Value="74"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="TP_Projet_noté\u_accueil.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="f_accueil"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="74"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="u_select_inscription.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="f_select_inscription"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="15" Y="85"/>
+        <UsageCount Value="74"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="u_list_inscription.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="f_list_inscription"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="26"/>
+        <CursorPos X="20" Y="60"/>
+        <UsageCount Value="70"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="u_detail_inscription.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="f_detail_inscription"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="264"/>
+        <CursorPos X="31" Y="291"/>
+        <UsageCount Value="70"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="u_note_list.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="f_note_list"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="10"/>
+        <CursorPos X="95" Y="14"/>
+        <UsageCount Value="64"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="u_note_ajout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="f_note_ajout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="84" Y="3"/>
+        <UsageCount Value="63"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="u_modele.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="9"/>
+        <CursorPos X="81" Y="27"/>
+        <UsageCount Value="62"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="u_accueil.pas"/>
+        <ComponentName Value="f_accueil"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="144" Y="12"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="u_feuille_style.pas"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="16"/>
+        <CursorPos X="127" Y="67"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="u_gabarit.pas"/>
+        <ComponentName Value="f_gabarit"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="71"/>
+        <CursorPos X="155" Y="90"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="u_liste.pas"/>
+        <ComponentName Value="f_liste"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="66"/>
+        <CursorPos X="59" Y="116"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="f_note_list.pas"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="18"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\IHMVF\Projet-IHM_grblaireaux\Projet IHM_grblaireaux\Projet\u_list_adherent.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="12"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\Lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10317"/>
+        <CursorPos Y="10330"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\lazarus\components\ZEOSDBO-7.1.4-stable\src\dbc\ZDbcMySqlUtils.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="413"/>
+        <CursorPos Y="433"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="f_note_list.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="tp_projet.lpi"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="XML"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="u_accueil.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="u_detail_inscription.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="u_gabarit.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="u_list_inscription.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="u_liste.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="u_note_ajout.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="u_note_list.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="u_select_inscription.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="..\..\IHMVF\Projet-IHM_grblaireaux\Projet IHM_grblaireaux\Projet\u_list_adherent.pas"/>
+        <ComponentName Value="f_list_adherent"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="74" Y="37"/>
+        <UsageCount Value="14"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\..\IHMVF\Projet-IHM_grblaireaux\Projet IHM_grblaireaux\Projet\u_liste.pas"/>
+        <ComponentName Value="f_liste"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <UsageCount Value="9"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1834"/>
+        <CursorPos Y="1844"/>
+        <UsageCount Value="9"/>
+      </Unit30>
+    </Units>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="u_detail_inscription.pas"/>
+        <Caret Line="193" Column="52" TopLine="165"/>
+      </Position1>
+      <Position2>
+        <Filename Value="tp_projet.lpr"/>
+        <Caret Line="26" Column="31"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

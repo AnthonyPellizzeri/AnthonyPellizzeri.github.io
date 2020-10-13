@@ -1,0 +1,217 @@
+@font-face
+{
+	font-family : "police1";
+	src : url('../src/Cantarell-Regular.ttf');
+}
+body
+{
+	font-family : police1;
+	margin : 0;
+	padding : 0;
+	width : 100%;
+	background-image : url('../img/cote.png');
+	background-repeat : repeat;
+	text-align : justify;
+}
+body div
+{
+	margin : 0;
+	padding : 0;
+}
+body div section article p
+{
+	text-indent : 20px;
+}
+.drap1
+{
+	width : 35px;
+	position : relative;
+	left : 39.5px;
+	bottom : 50px;
+	padding : 0;
+	margin : 0;
+}
+.drap2
+{
+	width : 35px;
+	position : relative;
+	bottom : 20px;
+	padding : 0;
+	margin : 0;
+}
+.bandeau
+{
+	width : 95%;
+}
+.droite
+{
+	display : none;
+}
+.gauche
+{
+	float : left;
+	margin-left : 1%;
+	margin-top : 0.5%;
+}
+header
+{
+	text-align : center;
+	margin : 0;
+	padding : 0;
+}
+header ul
+{
+	text-align : center;
+	width : 100%;
+	padding : 0;
+	margin : 0;
+}
+header ul li
+{
+	width : 100%;
+	display : block;
+	margin : 0;
+	padding : 0;
+}
+header ul li a
+{
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	text-align: center;
+	background: rgb(88,88,88);
+	border-top : 1px solid black;
+	border-left : 1px solid black;
+	border-right : 1px solid black;
+	margin : 0;
+	padding : 0;
+	padding-top : 3px;
+	padding-bottom : 3px;
+}
+.l1
+{
+	border-bottom : 1px solid black;
+}
+header ul li a:link, li a:visited
+{
+	color : white;
+	background-color : rgb(88,88,88);
+}
+header div
+{
+	margin : 0;
+	padding : 0;
+	width : 100%;
+}
+section
+{
+	width : 90%;
+	margin : auto;
+}
+footer
+{
+	background-color: rgb(153,153,153);
+	text-align: center;
+	padding:0.25%;
+	color: white;
+	border-top : solid 7px rgb(88,88,88);
+	position: relative;
+	bottom: 0;
+	left : 0;
+	right : 0;
+	padding : 0;
+	margin : 0;
+}
+aside
+{
+	display : none;
+}
+
+.phone
+{
+	list-style-image: url('../img/icone_telephone.png');
+}
+
+.mail
+{
+	list-style-image: url('../img/icone_mail.png');
+}
+
+.fb
+{
+	list-style-image: url('../img/icone_fb.png');
+}
+
+div section article h3
+{
+	text-align: center;
+	margin-bottom: 1%;
+}
+.iut
+{
+	width : 30%;
+}
+.amph1
+{
+	width : 30%;
+}
+.amph2
+{
+	width : 30%;
+}
+section article figure
+{
+	text-align : center;
+	margin-top : 5%;
+}
+.pucechap
+{
+	list-style-image : url('../img/graduate-cap.png');
+}
+.pucecomp
+{
+	list-style-image : url('../img/comparaison.png');
+}
+.puceordi
+{
+	list-style-image : url('../img/ordi.png');
+}
+.pucecours
+{
+	list-style-image : url('../img/plume.png');
+}
+.photo1
+{
+	width : 100%;
+}
+.cour
+{
+	float : right;
+	width : 50%;
+}
+body section article ul li dl dt a
+{
+	color : blue;
+	text-decoration : underline;
+}
+body section article ul li dl dt a:link, dt a:visited
+{
+	color : blue;
+	text-decoration : underline;
+}
+.puceecole
+{
+	list-style-image : url('../img/certif.png');
+}
+.pucehomme
+{
+	list-style-image : url('../img/homme.png');
+}
+.pucebatiment
+{
+	list-style-image : url('../img/restaurant.png');
+}
+body section figure a img
+{
+	width : 50%;
+}
