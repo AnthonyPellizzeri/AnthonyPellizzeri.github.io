@@ -132,7 +132,7 @@
 
   </head>
   <body>
-    <div class="main-block">
+    <div class="main-block" id="form">
       <h1>Jeu aléatoire</h1>
       <div style="margin: 0 30px;">
         <hr>
@@ -150,7 +150,7 @@
             <input id="nbrLance" type="number" min="1" max="100" value="1"/>
             <br>
             <label id="icon" ><i class="fas fa-play"></i></label>
-            <input type="text" id="name" placeholder="Action" required/>
+            <input type="text" id="action" placeholder="Action"/>
         </div>
         <hr>
         <div class="btn-block">
@@ -158,6 +158,13 @@
         </div>
       </div>
     </div>
+      <div id="graph" style="display:none; width: 100%">
+          <div id="chartContainer" style="height: 100%; width: 500px;"></div>
+      </div>
+      
+      
+      <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
       <script>
           updateNbrPlayer(2);
         function updateNbrPlayer(nbr){
@@ -174,7 +181,7 @@
             
             var newImput= document.createElement("input");
             newImput.setAttribute("type","text");
-            newImput.setAttribute("required","required");
+            //newImput.setAttribute("required","required");
                 document.getElementById("players").appendChild(newlabel);
                 newImput.setAttribute("id","name"+i);
                 newImput.setAttribute("placeholder","Joueur "+i);
@@ -194,15 +201,19 @@
              Score[i][0] = document.getElementById("name"+i).value;
              Score[i][2] = 0;
             }
+            
+            
             // assigner nombre aléatoire aux joueur
+            var used;
             for(var i=0;i<document.getElementById("nbrPlayer").value;i++){
-                //test if number used
-                var used=false;
-                
+                //test if number used                
                 do{
                     var nbrAdd=randomIntFromInterval(1, nbrPlayer);
+                    used=false;
                     for(var n=0;n<=i;n++){
-                        if(Score[n][1]==nbrAdd){ used=true;}
+                        if(Score[n][1]==nbrAdd){ 
+                            used=true;
+                        }
                     }
                 }while(used)
                 
@@ -212,18 +223,70 @@
             for (var i = 0; i < nbrlance; i++)
             {
                 var nbrRandom=randomIntFromInterval(1, nbrPlayer);
-                for (var n = 0; n < nbrPlayer; i++)
+                for (var n = 0; n < nbrPlayer; n++)
                 {
                      if(Score[n][1]==nbrRandom){ 
-                         Score[n][2]=Score[i][2]+1;
+                         Score[n][2]=Score[n][2]+1;
                      }
                 }
             }
+            
+            //show winner
+            document.getElementById("form").style.display="none";
+            document.getElementById("graph").style.display="block";
+            
+            
+            
+            var arr = [];
             for (var i = 0; i < nbrPlayer; i++)
             {
-             alert(Score[i]);
+                arr.push({
+                    y: Score[i][2],
+                    label: Score[i][0].toString()
+                });
             }
             
+            //know loaser
+            var loasers = [];
+            var pntLoaser=0;
+            for (var i = 0; i < nbrPlayer; i++)
+            {
+                if(Score[i][2]>pntLoaser){
+                    loasers=[Score[i][0]];
+                    pntLoaser=Score[i][2];
+                }else if(Score[i][2]==pntLoaser){
+                    loasers.push(Score[i][0]);
+                }
+            }
+            var strLoaser=" Perdant(s): ";
+            for (var i = 0; i < loasers.length; i++)
+            {
+                strLoaser+= loasers[i] + " "
+            }
+            strLoaser+= " Action: " + document.getElementById("action").value;
+            var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+
+                title:{
+                    text:strLoaser
+                },
+                axisX:{
+                    interval: 1
+                },
+                axisY2:{
+                    interlacedColor: "rgba(1,77,101,.2)",
+                    gridColor: "rgba(1,77,101,.1)",
+                    title: "Score"
+                },
+                data: [{
+                    type: "bar",
+                    name: "companies",
+                    axisYType: "secondary",
+                    color: "#014D65",
+                    dataPoints: arr
+                }]
+            });
+            chart.render();            
         }
           function randomIntFromInterval(min, max) { // min and max included 
           return Math.floor(Math.random() * (max - min + 1) + min);
